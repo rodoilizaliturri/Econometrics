@@ -166,6 +166,7 @@ foreach sumvar in s_age s_hsgrade3 s_mtongue_english s_mothercolldegree s_father
 
 estout matrix(results)
 
+* Install frmttable
 frmttable, statmat(results)
 
 
